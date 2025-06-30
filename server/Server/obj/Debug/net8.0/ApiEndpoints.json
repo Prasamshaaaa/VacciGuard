@@ -1,0 +1,447 @@
+[
+  {
+    "ContainingType": "Server.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Server.DTOs.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Server.DTOs.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Server.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.VaccineController",
+    "Method": "GetAllVaccines",
+    "RelativePath": "api/Vaccine/vaccines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.VaccineController",
+    "Method": "AddVaccine",
+    "RelativePath": "api/Vaccine/vaccines",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vaccine",
+        "Type": "Server.Models.Vaccine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.VaccineController",
+    "Method": "GetVaccine",
+    "RelativePath": "api/Vaccine/vaccines/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.VaccineController",
+    "Method": "UpdateVaccine",
+    "RelativePath": "api/Vaccine/vaccines/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vaccine",
+        "Type": "Server.Models.Vaccine",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.VaccineController",
+    "Method": "DeleteVaccine",
+    "RelativePath": "api/Vaccine/vaccines/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AppointmentController",
+    "Method": "GetAppointments",
+    "RelativePath": "appointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AppointmentController",
+    "Method": "AddAppointment",
+    "RelativePath": "appointments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppointmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.DateOfBirth",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaccineId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.VaccineId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.Manufacturer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.RequiredDoses",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppointmentDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoseGiven",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoseNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AppointmentController",
+    "Method": "GetAppointment",
+    "RelativePath": "appointments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AppointmentController",
+    "Method": "UpdateAppointment",
+    "RelativePath": "appointments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "AppointmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.DateOfBirth",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Patient.Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VaccineId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.VaccineId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.Manufacturer",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Vaccine.RequiredDoses",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AppointmentDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoseGiven",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoseNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AppointmentController",
+    "Method": "DeleteAppointment",
+    "RelativePath": "appointments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.PatientController",
+    "Method": "GetAllPatients",
+    "RelativePath": "patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.PatientController",
+    "Method": "AddPatient",
+    "RelativePath": "patients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patient",
+        "Type": "Server.Models.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.PatientController",
+    "Method": "GetPatient",
+    "RelativePath": "patients/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.PatientController",
+    "Method": "UpdatePatient",
+    "RelativePath": "patients/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.PatientController",
+    "Method": "DeletePatient",
+    "RelativePath": "patients/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,20 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Angular
+.angular/
+
+# VSCode settings
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# System files
+.DS_Store
+Thumbs.db
