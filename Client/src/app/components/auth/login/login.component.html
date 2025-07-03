@@ -1,0 +1,37 @@
+<form [formGroup]="LoginForm" (ngSubmit)="OnSubmit()">
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input
+      id="username"
+      type="text"
+      formControlName="username"
+      class="form-control"
+      [class.is-invalid]="Username.invalid && (Username.dirty || Username.touched)"
+    />
+    <div *ngIf="Username.invalid && (Username.dirty || Username.touched)" class="invalid-feedback">
+      <small *ngIf="Username.errors?.['required']">Username is required.</small>
+    </div>
+  </div>
+
+  <div class="form-group mt-3">
+    <label for="password">Password</label>
+    <input
+      id="password"
+      type="password"
+      formControlName="password"
+      class="form-control"
+      [class.is-invalid]="Password.invalid && (Password.dirty || Password.touched)"
+    />
+    <div *ngIf="Password.invalid && (Password.dirty || Password.touched)" class="invalid-feedback">
+      <small *ngIf="Password.errors?.['required']">Password is required.</small>
+    </div>
+  </div>
+
+  <button
+    type="submit"
+    class="btn btn-success mt-4"
+    [disabled]="LoginForm.invalid"
+  >
+    Login
+  </button>
+</form>

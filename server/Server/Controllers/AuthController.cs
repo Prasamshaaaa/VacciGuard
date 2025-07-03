@@ -20,18 +20,21 @@ namespace Server.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterDto dto)
+        public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
             var response = new ApiResponse<ApplicationUser>();
+
             try
             {
-                var result = await _authService.RegisterAsync(dto);
+                var result = await _authService.RegisterAsync(registerDto);
+
                 if (result.Status == ResponseStatusText.Failed)
                 {
                     response.Status = ResponseStatusText.Failed;
                     response.ErrorMessage = result.ErrorMessage ?? "Username already exists.";
                     return BadRequest(response);
                 }
+
                 response.Status = ResponseStatusText.OK;
                 response.Results = result.Results;
                 return Ok(response);
@@ -43,6 +46,7 @@ namespace Server.Controllers
                 return BadRequest(response);
             }
         }
+
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto dto)

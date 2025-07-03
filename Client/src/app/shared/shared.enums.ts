@@ -1,5 +1,5 @@
 
-export enum DanpheHTTPResponses {
+export enum HTTPResponseStatus {
   OK = "OK",
   Failed = "Failed"
 }

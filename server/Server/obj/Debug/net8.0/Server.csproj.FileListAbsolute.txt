@@ -122,6 +122,7 @@ C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\Server
 C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
 C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\Server.sourcelink.json
 C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
 C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\prasa\Desktop\Projects\VacciGuard\Server\Server\obj\Debug\net8.0\staticwebassets.development.json

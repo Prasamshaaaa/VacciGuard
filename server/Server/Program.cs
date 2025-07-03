@@ -2,6 +2,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Server.Configurations;
 using Server.Data;
 using Server.Extensions;
 using Server.Interfaces;
@@ -19,7 +20,15 @@ builder.Services.AddSwaggerGen();
 //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.RegisterServices(builder.Configuration); // Service Registration which made dependency injection possible
 
-builder.Services.AddCors();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", builder =>
+    {
+        builder.WithOrigins("http://localhost:3000") 
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
 
 // Jwt Config from appsettings
 var jwtConfig = builder.Configuration.GetSection("JwtTokenConfig");
@@ -47,12 +56,12 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization();
 
+builder.Services.Configure<InvitationCodesConfig>(
+    builder.Configuration.GetSection("InvitationCodes"));
+
 var app = builder.Build();
 
-app.UseCors(options =>
-options.WithOrigins("http://localhost:3000")
-    .AllowAnyHeader()
-    .AllowAnyMethod());
+app.UseCors("AllowFrontend");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -65,12 +74,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
-
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 app.MapControllers();
 

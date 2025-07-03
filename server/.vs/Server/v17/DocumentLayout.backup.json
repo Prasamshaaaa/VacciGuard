@@ -7,108 +7,36 @@
       "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\configurations\\invitationcodesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\configurations\\invitationcodesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\data\\appointmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\data\\appointmentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\controllers\\vaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\controllers\\vaccinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\services\\vaccineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\services\\vaccineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\interfaces\\ivaccineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\interfaces\\ivaccineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\common\\responsestatustext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\common\\responsestatustext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\data\\vaccinationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\data\\vaccinationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\migrations\\20250622100503_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\migrations\\20250622100503_tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|c:\\users\\prasa\\desktop\\projects\\vacciguard\\server\\server\\common\\responsestatustext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{737FA3A1-67A5-4DDB-BA02-B09DDF686A6F}|Server\\Server.csproj|solutionrelative:server\\common\\responsestatustext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,167 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Server\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\AuthService.cs",
-              "RelativeToolTip": "Server\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:46:15.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Server\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwGMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:14:43.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\Appointment.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Appointment.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\Appointment.cs",
-              "RelativeToolTip": "Server\\Models\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:05:50.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppointmentController.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\AppointmentController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\AppointmentController.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\AppointmentController.cs",
-              "RelativeToolTip": "Server\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAiwHoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:20:04.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Server\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Server\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:55:15.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppointmentDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Data\\AppointmentDBContext.cs",
-              "RelativeDocumentMoniker": "Server\\Data\\AppointmentDBContext.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Data\\AppointmentDBContext.cs",
-              "RelativeToolTip": "Server\\Data\\AppointmentDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T07:56:54.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAppointmentService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IAppointmentService.cs",
-              "RelativeDocumentMoniker": "Server\\Interfaces\\IAppointmentService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IAppointmentService.cs",
-              "RelativeToolTip": "Server\\Interfaces\\IAppointmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:24:55.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VaccineController.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\VaccineController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\VaccineController.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\VaccineController.cs",
-              "RelativeToolTip": "Server\\Controllers\\VaccineController.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAiwHkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:02:29.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AppointmentService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\AppointmentService.cs",
-              "RelativeDocumentMoniker": "Server\\Services\\AppointmentService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\AppointmentService.cs",
-              "RelativeToolTip": "Server\\Services\\AppointmentService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwDUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:24:41.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Server\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T08:36:11.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VaccineService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\VaccineService.cs",
-              "RelativeDocumentMoniker": "Server\\Services\\VaccineService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\VaccineService.cs",
-              "RelativeToolTip": "Server\\Services\\VaccineService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:19:53.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IVaccineService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IVaccineService.cs",
-              "RelativeDocumentMoniker": "Server\\Interfaces\\IVaccineService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IVaccineService.cs",
-              "RelativeToolTip": "Server\\Interfaces\\IVaccineService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:30:58.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ResponseStatusText.cs",
               "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Common\\ResponseStatusText.cs",
               "RelativeDocumentMoniker": "Server\\Common\\ResponseStatusText.cs",
@@ -287,181 +59,109 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-23T07:20:02.372Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Common\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Server\\Common\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Common\\ApiResponse.cs",
-              "RelativeToolTip": "Server\\Common\\ApiResponse.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAzwA8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T04:38:38.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Server\\DTOs\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "Server\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:02:42.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Vaccine.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\Vaccine.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Vaccine.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\Vaccine.cs",
-              "RelativeToolTip": "Server\\Models\\Vaccine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T09:04:47.228Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\PatientService.cs",
-              "RelativeDocumentMoniker": "Server\\Services\\PatientService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\PatientService.cs",
-              "RelativeToolTip": "Server\\Services\\PatientService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:41:32.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ServiceExtension.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Extensions\\ServiceExtension.cs",
-              "RelativeDocumentMoniker": "Server\\Extensions\\ServiceExtension.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Extensions\\ServiceExtension.cs",
-              "RelativeToolTip": "Server\\Extensions\\ServiceExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:33:06.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AuthDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Data\\AuthDBContext.cs",
-              "RelativeDocumentMoniker": "Server\\Data\\AuthDBContext.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Data\\AuthDBContext.cs",
-              "RelativeToolTip": "Server\\Data\\AuthDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:25:45.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "Server\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "Server\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:20:33.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Server\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "Server\\DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:02:26.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VaccinationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Data\\VaccinationDBContext.cs",
-              "RelativeDocumentMoniker": "Server\\Data\\VaccinationDBContext.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Data\\VaccinationDBContext.cs",
-              "RelativeToolTip": "Server\\Data\\VaccinationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T05:42:39.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IPatientService.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IPatientService.cs",
-              "RelativeDocumentMoniker": "Server\\Interfaces\\IPatientService.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Interfaces\\IPatientService.cs",
-              "RelativeToolTip": "Server\\Interfaces\\IPatientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:23:52.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\appsettings.json",
               "RelativeDocumentMoniker": "Server\\appsettings.json",
               "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\appsettings.json",
               "RelativeToolTip": "Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-22T05:31:51.987Z"
+              "WhenOpened": "2025-07-01T05:46:38.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "Server\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\Patient.cs",
-              "RelativeToolTip": "Server\\Models\\Patient.cs",
+              "DocumentIndex": 2,
+              "Title": "InvitationCodesConfig.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Configurations\\InvitationCodesConfig.cs",
+              "RelativeDocumentMoniker": "Server\\Configurations\\InvitationCodesConfig.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Configurations\\InvitationCodesConfig.cs",
+              "RelativeToolTip": "Server\\Configurations\\InvitationCodesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:23:27.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Server\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "Server\\DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T06:12:37.063Z"
+              "WhenOpened": "2025-06-30T10:00:34.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20250622100503_tables.cs",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Migrations\\20250622100503_tables.cs",
-              "RelativeDocumentMoniker": "Server\\Migrations\\20250622100503_tables.cs",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Migrations\\20250622100503_tables.cs",
-              "RelativeToolTip": "Server\\Migrations\\20250622100503_tables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Server\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "Server\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:05:03.969Z"
+              "WhenOpened": "2025-06-30T10:00:30.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Server.csproj",
-              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\Server\\Server\\Server.csproj",
-              "RelativeDocumentMoniker": "Server\\Server.csproj",
-              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\Server\\Server\\Server.csproj",
-              "RelativeToolTip": "Server\\Server.csproj",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-22T06:10:49.012Z"
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwDsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:14:38.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwBwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T09:09:38.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Server\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Services\\AuthService.cs*",
+              "RelativeToolTip": "Server\\Services\\AuthService.cs*",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwIAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:46:15.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Server\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\prasa\\Desktop\\Projects\\VacciGuard\\server\\Server\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Server\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T10:04:38.928Z"
             }
           ]
         }

@@ -1,0 +1,16 @@
+<div *ngIf="Payload" class="position-fixed top-0 end-0 p-3" style="z-index:1200;">
+  <div
+    class="alert"
+    [ngClass]="{
+      'alert-success': Payload.status === 'success',
+      'alert-danger': Payload.status === 'error' || Payload.status === 'failed',
+      'alert-warning': Payload.status === 'warning',
+      'alert-info': Payload.status === 'notice'
+    }"
+    role="alert"
+  >
+    <ul class="mb-0">
+      <li *ngFor="let msg of Payload.messages">{{ msg }}</li>
+    </ul>
+  </div>
+</div>

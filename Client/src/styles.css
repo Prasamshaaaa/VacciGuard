@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #4CAF50;
+  --primary-light: #E8F5E9;
+  --primary-dark: #388E3C;
+  --text-color: #2E7D32;
+}
+
+body {
+  background-color: var(--primary-light);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-green {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.btn-green:hover {
+  background-color: var(--primary-dark);
+}

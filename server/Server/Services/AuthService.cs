@@ -6,30 +6,33 @@ using Server.Models;
 using Server.Common;
 using System;
 using System.Threading.Tasks;
+using Server.Configurations;
+using Microsoft.Extensions.Options;
 
 namespace Server.Services
 {
     public class AuthService : IAuthService
     {
         private readonly AuthDBContext _context;
-
-        public AuthService(AuthDBContext context)
+        private readonly InvitationCodesConfig _invitationCodes;
+        public AuthService(AuthDBContext context, IOptions<InvitationCodesConfig> invitationCodes)
         {
             _context = context;
+            _invitationCodes = invitationCodes.Value;
         }
 
-        public async Task<ApiResponse<ApplicationUser>> RegisterAsync(RegisterDto dto)
+        public async Task<ApiResponse<ApplicationUser>> RegisterAsync(RegisterDto RegisterDto)
         {
             var response = new ApiResponse<ApplicationUser>();
 
-            if (dto == null)
+            if (RegisterDto == null)
             {
                 response.Status = ResponseStatusText.Failed;
                 response.ErrorMessage = "Invalid registration data.";
                 return response;
             }
 
-            bool userExists = await _context.ApplicationUsers.AnyAsync(u => u.Username == dto.Username);
+            bool userExists = await _context.ApplicationUsers.AnyAsync(u => u.Username == RegisterDto.Username);
             if (userExists)
             {
                 response.Status = ResponseStatusText.Failed;
@@ -39,13 +42,27 @@ namespace Server.Services
 
             var newUser = new ApplicationUser
             {
-                Username = dto.Username,
-                Role = string.IsNullOrWhiteSpace(dto.Role) ? "User" : dto.Role
+                Username = RegisterDto.Username,
             };
 
-            CreatePasswordHash(dto.Password, out byte[] passwordHash, out byte[] passwordSalt);
+            CreatePasswordHash(RegisterDto.Password, out byte[] passwordHash, out byte[] passwordSalt);
             newUser.PasswordHash = passwordHash;
             newUser.PasswordSalt = passwordSalt;
+
+            if (!string.IsNullOrEmpty(RegisterDto.InvitationCode))
+            {
+                if (RegisterDto.InvitationCode == _invitationCodes.AdminCode)
+                    newUser.Role = _invitationCodes.AdminRole;
+                else if (RegisterDto.InvitationCode == _invitationCodes.StaffCode)
+                    newUser.Role = _invitationCodes.StaffRole;
+                else
+                    newUser.Role = _invitationCodes.UserRole;  
+            }
+            else
+            {
+                newUser.Role = _invitationCodes.UserRole;  // default role from config
+            }
+
 
             _context.ApplicationUsers.Add(newUser);
             await _context.SaveChangesAsync();
@@ -55,18 +72,18 @@ namespace Server.Services
             return response;
         }
 
-        public async Task<ApiResponse<ApplicationUser>> LoginAsync(LoginDto dto)
+        public async Task<ApiResponse<ApplicationUser>> LoginAsync(LoginDto LoginDto)
         {
             var response = new ApiResponse<ApplicationUser>();
 
-            if (dto == null || string.IsNullOrWhiteSpace(dto.Username) || string.IsNullOrWhiteSpace(dto.Password))
+            if (LoginDto == null || string.IsNullOrWhiteSpace(LoginDto.Username) || string.IsNullOrWhiteSpace(LoginDto.Password))
             {
                 response.Status = ResponseStatusText.Failed;
                 response.ErrorMessage = "Invalid login data.";
                 return response;
             }
 
-            var user = await _context.ApplicationUsers.FirstOrDefaultAsync(u => u.Username == dto.Username);
+            var user = await _context.ApplicationUsers.FirstOrDefaultAsync(u => u.Username == LoginDto.Username);
             if (user == null)
             {
                 response.Status = ResponseStatusText.Failed;
@@ -74,7 +91,7 @@ namespace Server.Services
                 return response;
             }
 
-            bool passwordValid = VerifyPasswordHash(dto.Password, user.PasswordHash, user.PasswordSalt);
+            bool passwordValid = VerifyPasswordHash(LoginDto.Password, user.PasswordHash, user.PasswordSalt);
             if (!passwordValid)
             {
                 response.Status = ResponseStatusText.Failed;
@@ -87,7 +104,7 @@ namespace Server.Services
             return response;
         }
 
-        public async Task<ApiResponse<bool>> ChangePasswordAsync(ChangePasswordDto dto, string currentUsername)
+        public async Task<ApiResponse<bool>> ChangePasswordAsync(ChangePasswordDto ChangePasswordDto, string currentUsername)
         {
             var response = new ApiResponse<bool>();
 
@@ -100,7 +117,7 @@ namespace Server.Services
                 return response;
             }
 
-            bool oldPasswordCorrect = VerifyPasswordHash(dto.OldPassword, user.PasswordHash, user.PasswordSalt);
+            bool oldPasswordCorrect = VerifyPasswordHash(ChangePasswordDto.OldPassword, user.PasswordHash, user.PasswordSalt);
             if (!oldPasswordCorrect)
             {
                 response.Status = ResponseStatusText.Failed;
@@ -109,7 +126,7 @@ namespace Server.Services
                 return response;
             }
 
-            CreatePasswordHash(dto.NewPassword, out byte[] newHash, out byte[] newSalt);
+            CreatePasswordHash(ChangePasswordDto.NewPassword, out byte[] newHash, out byte[] newSalt);
             user.PasswordHash = newHash;
             user.PasswordSalt = newSalt;
 
